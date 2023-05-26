@@ -15,7 +15,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="32dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+
+        />
 
     <EditText
         android:id="@+id/nombreEditText"
@@ -26,7 +28,7 @@
         android:layout_marginTop="64dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -40,7 +42,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Last Name"
+        android:hint="Last Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nombreEditText" />
@@ -54,7 +56,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Email"
+        android:hint="Email"
         app:layout_constraintTop_toBottomOf="@+id/apellidoEditText"
         tools:layout_editor_absoluteX="101dp" />
 
@@ -67,7 +69,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Password"
+        android:hint="Password"
         app:layout_constraintTop_toBottomOf="@+id/emailEditText"
         tools:layout_editor_absoluteX="99dp" />
 
