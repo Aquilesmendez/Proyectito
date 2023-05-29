@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     if (nombre.matches("[a-zA-Z]+")) {
                         // Validar que el apellido solo contenga letras
                         if (apellido.matches("[a-zA-Z]+")) {
-                            // Aquí puedes realizar la acción de registro con los datos ingresados
+
                             if (Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
 
                                 if (password.length() >= 8 && password.matches(".*[A-Z].*") && password.matches(".*[!@#$%^&*()].*")) {
