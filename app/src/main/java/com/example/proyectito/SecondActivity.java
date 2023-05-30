@@ -14,14 +14,14 @@ public class SecondActivity extends AppCompatActivity {
 
         TextView nameTextView = findViewById(R.id.nameTextView);
         TextView lastNameTextView = findViewById(R.id.lastNameTextView);
-        TextView emailEditText = findViewById(R.id.emailTextView);
+        TextView emailEditText = findViewById(R.id.emailEditText);
 
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String nombre = extras.getString("nombre");
             String apellido = extras.getString("apellido");
-            String email = extras.getString("correo");
+            String email = extras.getString("email");
 
             // Mostrar los datos en los TextView correspondientes
             nameTextView.setText("Nombre: " + nombre);
